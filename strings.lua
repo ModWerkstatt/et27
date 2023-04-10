@@ -10,7 +10,7 @@ return {
         ["option_fake_et27_desc"] = "Switches the fake versions of the ET 27 / Classs 427 off (default) or on.",
 
         ["et27_name"] = "ET 27 (1964)",
-        ["et27_fake_name"] = "ET 27 (1964) FAKE",    
+        ["et27_fake_name"] = "ET 27 (1964) FAKE",
         ["et27_desc"] = "The Deutsche Bundesbahn put five units into service in 1963. These multiple units could not prove themselves in everyday service due to the weak transformer and the low tractive power, which was caused by the low vehicle floor of 800 millimetres.",
         ["br427_ar_name"] = "Class 427 (1968)",
         ["br427_ar_fake_name"] = "Class 427 (1968) FAKE",
@@ -25,19 +25,19 @@ return {
         ["br427.1_name"] = "Class 427.1",
         ["br427.4_name"] = "Class 427.4",
 		["br827_name"] = "Class 827",
-		
+
 	},
 	de = {
 
 		["mod_name"] = "DB ET 27 / BR 427",
-		["mod_desc"] = "Die Triebzüge der Baureihe ET 27 (ab 1968 Baureihe 427) der Deutschen Bundesbahn, wurden für Nahschnellverkehrszüge in Ballungsräumen konzipiert. Sie bestanden aus je zwei Trieb- und einem Mittelwagen ohne Antrieb. Die Züge führten die erste und zweite Wagenklasse und verfügten über einen Gepäckraum. Die Motorleistung war nicht überzeugend, soi dass nur 5 Stück beschafft wurden, viele Entwicklungsmerkmale flossen aber in die spätere BR 420 ein.",
+		["mod_desc"] = "Die Triebzüge der Baureihe ET 27 (ab 1968 Baureihe 427) der Deutschen Bundesbahn, wurden für Nahschnellverkehrszüge in Ballungsräumen konzipiert. Sie bestanden aus je zwei Trieb- und einem Mittelwagen ohne Antrieb. Die Züge führten die erste und zweite Wagenklasse und verfügten über einen Gepäckraum. Die Motorleistung war nicht überzeugend, so dass nur 5 Stück beschafft wurden, viele Entwicklungsmerkmale flossen aber in die spätere BR 420 ein.",
 
         ["et27_menu"] = "ET 27 / BR 427",
         ["Fake_et27"] = "Fake-Versionen ET 27 / BR 427 aktivieren?",
         ["option_fake_et27_desc"] = "Schaltet die Fake-Versionen des ET 27 / der BR 427 ab (Standard) oder an.",
 
         ["et27_name"] = "ET 27 (1964)",
-        ["et27_fake_name"] = "ET 27 (1964) FAKE",    
+        ["et27_fake_name"] = "ET 27 (1964) FAKE",
         ["et27_desc"] = "Die Deutsche Bundesbahn stellte 1963 fünf Einheiten in Dienst. Im Alltag konnten sich diese Triebzüge aufgrund des schwachen Trafos und der geringen Antriebsleistung, die durch den niedrigen Fahrzeugboden von 800 Millimetern bedingt war, nicht bewähren.",
         ["br427_ar_name"] = "BR 427 (1968)",
         ["br427_ar_fake_name"] = "BR 427 (1968) FAKE",
@@ -52,7 +52,7 @@ return {
         ["br427.1_name"] = "BR 427.1",
         ["br427.4_name"] = "BR 427.4",
 		["br827_name"] = "BR 827",
-      
+
 	},
 }
 end
