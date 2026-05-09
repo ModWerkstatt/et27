@@ -1,0 +1,84 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.5, 1.5, 1.5, },
+		bbMin = { -1.5, -1.5, -1.5, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.5, 1.5, 1.5, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "::/placeholders/mat/missing_object.mtl", },
+						mesh = "::/placeholders/msh/cube_1x1_lod0.msh",
+						name = "cube_1x1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1999,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("menu_et27"),
+		},
+		emissions = {
+			noise = {
+				score = 45,
+			},
+			pollution = {
+				score = 30,
+			},
+		},
+		landVehicle = {
+			brakeDeceleration = 2.5,
+			engines = {
+				{
+					power = 2800,
+					tractiveEffort = 235,
+					type = "ELECTRIC",
+				},
+			},
+			friction = 0.0199999995529651641845703125,
+			topSpeed = 27.777777,
+			weight = 111.6999969482421875,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			config = {
+			},
+		},
+		transformator = {
+			name = "::/vehicle/tram/shared/default_tram.trf",
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			engineTags = { "ELECTRIC_TRAIN", },
+			tags = { "TRAIN", "ELECTRIC_TRAIN", },
+		},
+	},
+	version = 2,
+	}
+end

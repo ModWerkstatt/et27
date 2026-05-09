@@ -1,29 +1,40 @@
 function data()
-return {
-	__version = "",
-	order = 0,
-	params = {
-		emissive_scale = {
-			emissiveScale = { 45, 45, 45, },
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			emissive_scale = { 
+				fragmentProperties = {
+					{ 
+						emissiveScale = { 45, 45, 45, },
+					},
+				},
+			},
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_emissive = { 
+				fragmentSamplers = { 
+					emissiveTex = { 
+						fileName = "res/textures/models/vehicle/train/emissive/train_all_lights.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			polygon_offset = { 
+				fragmentProperties = {
+					{ 
+						factor = -1,
+						units = -1,
+					},
+				},
+			},
 		},
-		fade_out_range = {
-			fadeOutEndDist = 20000,
-			fadeOutStartDist = 10000,
-		},
-		map_emissive = {
-			fileName = "models/vehicle/train/emissive/train_all_lights.dds",
-			type = "TWOD",
-		},
-		polygon_offset = {
-			factor = -1,
-			forceDepthWrite = false,
-			units = -1,
-		},
-		two_sided = {
-			flipNormal = true,
-			twoSided = false,
-		},
-	},
-	type = "EMISSIVE",
-}
+		type = "EMISSIVE",
+	}
 end

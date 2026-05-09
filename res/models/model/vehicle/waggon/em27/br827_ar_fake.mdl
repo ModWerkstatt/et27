@@ -126,7 +126,7 @@ return {
 						mesh = "vehicle/train/et27/tuer1l_lod0.msh",
 						name = "tueren_ani",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829494, 1.432, 0.8, 1, },
-					},  
+					},
 					{
 						materials = { "vehicle/train/et27/rumpf2a.mtl", "vehicle/train/et27/glas.mtl", },
 						mesh = "vehicle/train/et27/tuer1r_lod0.msh",
@@ -275,7 +275,7 @@ return {
 						mesh = "vehicle/train/et27/tuer1l_lod1.msh",
 						name = "tueren_ani",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829494, 1.432, 0.8, 1, },
-					},  
+					},
 					{
 						materials = { "vehicle/train/et27/rumpf2a.mtl", "vehicle/train/et27/glas.mtl", },
 						mesh = "vehicle/train/et27/tuer1r_lod1.msh",
@@ -418,7 +418,7 @@ return {
 						mesh = "vehicle/train/et27/tuer1l_lod2.msh",
 						name = "tueren_ani",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829494, 1.432, 0.8, 1, },
-					},  
+					},
 					{
 						materials = { "vehicle/train/et27/rumpf2a.mtl", "vehicle/train/et27/glas.mtl", },
 						mesh = "vehicle/train/et27/tuer1r_lod2.msh",
@@ -532,7 +532,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.35, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, 10.35, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -557,7 +557,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.35, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, 10.35, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -582,7 +582,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, 6.6, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -607,7 +607,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, 6.6, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -632,7 +632,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.65, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, 4.65, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -657,7 +657,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.65, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, 4.65, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -682,7 +682,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.7, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, 2.7, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -707,7 +707,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.7, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, 2.7, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -732,7 +732,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.3, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, -1.3, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -757,7 +757,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.3, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, -1.3, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -782,7 +782,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.45, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, -3.45, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -807,7 +807,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.45, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, -3.45, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -832,7 +832,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.4, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, -5.4, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -857,7 +857,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.4, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, -5.4, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -882,7 +882,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.25, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, -9.25, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -907,7 +907,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.25, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, -9.25, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -932,7 +932,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -10.85, -1.05, 1.2, 1, },
+                    transf = { 0.985, -0.174, 0, 0, 0.174, 0.985, 0, 0, 0, 0, 1, 0, -10.85, -1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",
@@ -945,7 +945,7 @@ return {
                     animation = "sitting",
                     crew = false,
                     group = 1,
-                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -10.85, 1.05, 1.2, 1, },
+                    transf = { 0.985, 0.174, 0, 0, -0.174, 0.985, 0, 0, 0, 0, 1, 0, -10.85, 1.05, 1.2, 1, },
                 },
                 {
                     animation = "sitting",

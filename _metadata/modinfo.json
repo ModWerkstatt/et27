@@ -1,0 +1,22 @@
+{
+    "name": "DB ET 27 / Class 427",
+    "summary": "The ET 27 series multiple units of the German Federal Railways were designed for commuter express trains in metropolitan areas. ",
+    "description": "The multiple units of the class ET 27 (from 1968 class 427) of the Deutsche Bundesbahn were designed for local express trains in conurbations. They consisted of two power cars and one middle car without drive. The trains carried the first and second coach class and had a luggage compartment. The engine power was not convincing, so that only 5 units were procured, but many development features flowed into the later class 420.",
+    "localization" : {
+        "de": {
+            "name": "ET 27 / BR 427",
+            "summary": "Die Triebzüge der Baureihe ET 27 der Deutschen Bundesbahn, wurden für Nahschnellverkehrszüge in Ballungsräumen konzipiert. ",
+            "description": "Die Triebzüge der Baureihe ET 27 (ab 1968 Baureihe 427) der Deutschen Bundesbahn, wurden für Nahschnellverkehrszüge in Ballungsräumen konzipiert. Sie bestanden aus je zwei Trieb- und einem Mittelwagen ohne Antrieb. Die Züge führten die erste und zweite Wagenklasse und verfügten über einen Gepäckraum. Die Motorleistung war nicht überzeugend, so dass nur 5 Stück beschafft wurden, viele Entwicklungsmerkmale flossen aber in die spätere BR 420 ein."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Multiple Unit"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/et-27"
+}

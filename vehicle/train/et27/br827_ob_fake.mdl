@@ -1,0 +1,541 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 11.95300006866455078125, 1.42340004444122314453125, 4.172319889068603515625, },
+			bbMin = { -11.95300006866455078125, -1.42340004444122314453125, -0.076779998838901519775390625, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 11.95300006866455078125, 1.42340004444122314453125, 2.12454986572265625, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.047770023345947265625, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/em27/br827_rumpf_ob.mtl", },
+							mesh = "msh/em27/rumpf_lod0.msh",
+							name = "MSH_body_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/et27/innen.mtl", },
+							mesh = "msh/em27/innen_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/em27/glas.mtl", },
+							mesh = "msh/em27/glas_lod0.msh",
+							name = "MSH_body_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/bogie_lod0.msh",
+									name = "DG",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod0.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod0.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.659999847412109375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/bogie_lod0.msh",
+									name = "DG",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod0.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod0.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+							},
+							name = "bogie",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.659999847412109375, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod0.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.11538982391357421875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod0.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.7739200592041015625, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod0.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.11538982391357421875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod0.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.7739200592041015625, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/em27/br827_rumpf_ob.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod0.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829492986202239990234375, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/em27/br827_rumpf_ob.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod0.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.829493999481201171875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/em27/br827_rumpf_ob.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod0.msh",
+							name = "tueren_ani",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.829492986202239990234375, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/em27/br827_rumpf_ob.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod0.msh",
+							name = "tueren_ani",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829493999481201171875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod0.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.774379730224609375, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod0.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.11538982391357421875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod0.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.774379730224609375, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod0.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.11538982391357421875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 150,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/em27/br827_rumpf_ob.mtl", },
+							mesh = "msh/em27/rumpf_lod1.msh",
+							name = "MSH_body_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/et27/innen.mtl", },
+							mesh = "msh/em27/innen_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/em27/glas.mtl", },
+							mesh = "msh/em27/glas_lod0.msh",
+							name = "MSH_body_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/bogie_lod1.msh",
+									name = "DG",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod1.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod1.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.659999847412109375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/bogie_lod1.msh",
+									name = "DG",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod1.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod1.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+							},
+							name = "bogie",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.659999847412109375, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod1.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.11538982391357421875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod1.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.7739200592041015625, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod1.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.11538982391357421875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod1.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.7739200592041015625, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod1.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829492986202239990234375, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod1.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.829493999481201171875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod1.msh",
+							name = "tueren_ani",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.829492986202239990234375, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod1.msh",
+							name = "tueren_ani",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829493999481201171875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod1.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.774379730224609375, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod1.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.11538982391357421875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod1.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.774379730224609375, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod1.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.11538982391357421875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 150,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/em27/br827_rumpf_ob.mtl", },
+							mesh = "msh/em27/rumpf_lod2.msh",
+							name = "MSH_body_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/et27/innen.mtl", },
+							mesh = "msh/em27/innen_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/bogie_lod2.msh",
+									name = "DG",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod2.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod2.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.659999847412109375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/bogie_lod2.msh",
+									name = "DG",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod2.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/et27/rumpf3a.mtl", },
+									mesh = "msh/et27/achse_lod2.msh",
+									name = "achse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2337100505828857421875, 0, 0.449999988079071044921875, 1, },
+								},
+							},
+							name = "bogie",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.659999847412109375, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod2.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.11538982391357421875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod2.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.7739200592041015625, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod2.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.11538982391357421875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod2.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.7739200592041015625, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod2.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829492986202239990234375, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod2.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.829493999481201171875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod2.msh",
+							name = "tueren_ani",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.829492986202239990234375, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod2.msh",
+							name = "tueren_ani",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.829493999481201171875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1r_lod2.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.774379730224609375, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2r_lod2.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.11538982391357421875, -1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer1l_lod2.msh",
+							name = "door1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.774379730224609375, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/et27/rumpf3a.mtl", "mat/em27/glas.mtl", },
+							mesh = "msh/et27/tuer2l_lod2.msh",
+							name = "door2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.11538982391357421875, 1.43200004100799560546875, 0.800000011920928955078125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 1200,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1968,
+				yearTo = 1985,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				name = _("br827_name"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 33.333332061767578125,
+				weightEmpty = 34500,
+				weightMaxPayload = 0,
+			},
+			maintenance = { 
+				lifespan = 21915,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "achse", },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = { 
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = { },
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "::/vehicle/waggon/shared/sound/waggon_modern.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 148,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				loadSpeed = 6,
+				multipleUnitOnly = true,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end
