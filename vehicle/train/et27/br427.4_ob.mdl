@@ -635,46 +635,46 @@ return {
 						},
 						{ 
 							animations = { 
-								front_backward_parts_off = { 
+								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								front_backward_parts_on = { 
+								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
 							mesh = "msh/et27/licht_weiss_lod0.msh",
-							name = "headlights_bwd",
+							name = "headlights_fwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							animations = { 
-								back_forward_parts_off = { 
+								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_forward_parts_on = { 
+								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
 							mesh = "msh/et27/licht_rot_lod0.msh",
-							name = "taillights_fwd",
+							name = "taillights_bwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -1307,46 +1307,46 @@ return {
 						},
 						{ 
 							animations = { 
-								front_backward_parts_off = { 
+								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								front_backward_parts_on = { 
+								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
 							mesh = "msh/et27/licht_weiss_lod0.msh",
-							name = "headlights_bwd",
+							name = "headlights_fwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							animations = { 
-								back_forward_parts_off = { 
+								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_forward_parts_on = { 
+								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
 							mesh = "msh/et27/licht_rot_lod0.msh",
-							name = "taillights_fwd",
+							name = "taillights_bwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -1986,7 +1986,7 @@ return {
 						invertMask = true,
 						lightId = "",
 						mask = 0,
-						meshId = "headlights_bwd",
+						meshId = "headlights_fwd",
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
@@ -2003,7 +2003,7 @@ return {
 						invertMask = true,
 						lightId = "",
 						mask = 0,
-						meshId = "headlights_bwd",
+						meshId = "headlights_fwd",
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
@@ -2020,7 +2020,7 @@ return {
 						invertMask = true,
 						lightId = "",
 						mask = 0,
-						meshId = "headlights_bwd",
+						meshId = "headlights_fwd",
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
@@ -2037,7 +2037,7 @@ return {
 						invertMask = true,
 						lightId = "",
 						mask = 0,
-						meshId = "taillights_fwd",
+						meshId = "taillights_bwd",
 						mode = "LIGHT",
 						radius = 4,
 						strength = 1,
@@ -2055,7 +2055,7 @@ return {
 						invertMask = true,
 						lightId = "",
 						mask = 0,
-						meshId = "taillights_fwd",
+						meshId = "taillights_bwd",
 						mode = "LIGHT",
 						radius = 4,
 						strength = 1,
