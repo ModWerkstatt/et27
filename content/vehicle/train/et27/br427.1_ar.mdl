@@ -2394,7 +2394,7 @@ return {
 				loadSpeed = 3,
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-			filterTags = { "default" },
+				filterTags = { },
 			},
 		},
 		version = 2,

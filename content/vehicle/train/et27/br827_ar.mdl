@@ -1932,7 +1932,7 @@ return {
 				engineTransportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 				loadSpeed = 6,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-			filterTags = { "default" },
+				filterTags = { },
 			},
 		},
 		version = 2,
